@@ -1,0 +1,153 @@
+body,html
+{
+    background-color:lightslategray;
+}
+
+#gamesBtns
+{
+    height: 95vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 2%;
+    left: 90%;
+    z-index: 999;
+}
+
+#gamesBtns button
+{
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.firstGen
+{
+    background: linear-gradient(-90deg, #ACAB5F 50%, #772026 50%);
+    color: black;
+}
+
+.firstGen:hover
+{
+    background: linear-gradient(90deg, #5354A0 50%, #88DCDB 50%);
+}
+
+.secondGen
+{
+    background: linear-gradient(-90deg, #D68439 50%, #472B1B 50%);
+    color: black;
+}
+
+.secondGen:hover
+{
+    background: linear-gradient(90deg, #297AC4 50%, #B9D5E4 50%);
+    color: black;
+}
+
+.thirdGen
+{
+    background: linear-gradient(-90deg, #7E5BA2 50%, #BE98C7 50%);
+    color: black;
+}
+
+.thirdGen:hover
+{
+    background: linear-gradient(90deg, #81A45D 50%, #416639 50%);
+    color: black;
+}
+
+.fourthGen
+{
+    background: linear-gradient(90deg, #131B10 50%, #518E40 50%);
+    color: lightgray;
+}
+
+.fourthGen:hover
+{
+    background: linear-gradient(90deg, #B171BC 50%, #F2E6F0 50%);
+    color: black;
+}
+
+.fifthGen
+{
+    background: linear-gradient(90deg, #AFAA5E 50%, #D8D8D8 50%);
+    color: black;
+}
+
+.fifthGen:hover
+{
+    background: linear-gradient(-90deg, #5055A1 50%, #262726 50%);
+    color: lightgray;
+}
+
+#canvasDiv
+{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+#animBtns
+{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    z-index: 999;
+}
+
+#animBtns button
+{
+    padding: 18px 34px;
+    font-size: 1.4rem;
+    border: 2.5px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#animBtns button:hover
+{
+    background-color: #ccc;
+}
+
+@media (max-width: 1024px)
+{
+    #gamesBtns
+    {
+        position: absolute;
+        top: 140%;
+        left: 25%;
+        height: 1201px;
+    }
+    #gamesBtns button 
+    {
+        padding: 25px 35px;
+    }
+
+    #animBtns
+    {
+        top: 100%;
+        left: 20%;
+    }
+    #animBtns button
+    {
+        padding: 36px 69px;
+    }
+    canvas
+    {
+        width: 700px;
+        height: 350px;
+    }
+    #canvasDiv
+    {
+        position: absolute;
+        left: -170px;
+    }
+}

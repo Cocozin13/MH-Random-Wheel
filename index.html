@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="/javascript-winwheel-2.8.0/Winwheel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>MH Random Wheel</title>
+</head>
+<body>
+    <div id="animBtns">
+        <button class="runWheel" id="mh1Run" type="button" onClick="mh1.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhfRun" type="button" onClick="mhf.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhf2Run" type="button" onClick="mhf2.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhfuRun" type="button" onClick="mhfu.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhtriRun" type="button" onClick="mhtri.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhp3rdRun" type="button" onClick="mhp3rd.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mh3uRun" type="button" onClick="mh3u.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mh4uRun" type="button" onClick="mh4u.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhguRun" type="button" onClick="mhgu.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhwiRun" type="button" onClick="mhwi.startAnimation();">Spin the Wheel</button>
+        <button class="runWheel" id="mhrsRun" type="button" onClick="mhrs.startAnimation();">Spin the Wheel</button>
+    </div>
+    <div id="canvasDiv">
+        <canvas id='canvasMH1' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHF' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHF2' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHFU' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHTri' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHP3rd' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMH3U' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMH4U' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHGU' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHWI' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+        <canvas id='canvasMHRS' width='1200' height='600'>
+            Canvas not supported, use another browser.
+        </canvas>
+    </div>
+
+    <div id="gamesBtns">
+        <button class="firstGen" id="mh1">MH1</button>
+        <button class="firstGen" id="mhf">MHF</button>
+        <button class="secondGen" id="mhf2">MHF2</button>
+        <button class="secondGen" id="mhfu">MHFU</button>
+        <button class="thirdGen" id="mhtri">MHTri</button>
+        <button class="thirdGen" id="mhp3rd">MHP3rd</button>
+        <button class="thirdGen" id="mh3u">MH3U</button>
+        <button class="fourthGen" id="mh4u">MH4U</button>
+        <button class="fourthGen" id="mhgu">MHGU</button>
+        <button class="fifthGen" id="mhwi">MHWI</button>
+        <button class="fifthGen" id="mhrs">MHRS</button>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
