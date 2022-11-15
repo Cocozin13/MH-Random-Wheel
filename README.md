@@ -1,3 +1,4 @@
+![Screenshot](screenshot.png)
 # MonsterHunter Random Wheel
 #### Video Demo:  <https://www.youtube.com/watch?v=jAdzIvhYNk8>
 #### Description: 
